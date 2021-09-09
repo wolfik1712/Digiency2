@@ -43,6 +43,10 @@ body {
 	}
 	.lightImg {
 		transform: translateY(40%);
+		img {
+			width: 24px;
+			height: 24px;
+		}
 	}
 	// button
 	.buttonContact {

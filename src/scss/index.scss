@@ -1286,3 +1286,693 @@ body {
 		}
 	}
 }
+@media (max-width: 1150px) {
+	.container {
+		overflow: hidden;
+		margin: 0;
+		.digitalText {
+			.bestDigital {
+				width: 100%;
+				h1 {
+					font-size: 36px;
+				}
+				span {
+					font-size: 36px;
+				}
+			}
+			.bestDigitalIcon {
+				width: 80%;
+			}
+		}
+		.ideaEveryone {
+			.ideasBetter {
+				.ideasBetter {
+					.betterImg {
+						img {
+							width: 60%;
+						}
+					}
+				}
+			}
+		}
+		.ourWork {
+			width: 80%;
+			.projectsImg {
+				img {
+					width: 90%;
+				}
+			}
+		}
+		.freeContact {
+			margin-left: 5%;
+			.sendMessage {
+				margin: 0;
+				.sendImg {
+					width: 80%;
+				}
+				.inputForm {
+					width: 60%;
+					.inputSendMessage {
+						.inputSend {
+							width: 438px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 880px) {
+	.container {
+		.digitalText {
+			.bestDigital {
+				transform: translateY(-10%);
+			}
+		}
+		.bestDigitalIcon {
+			transform: translateX(-15%);
+			width: 95%;
+		}
+		.ideaEveryone {
+			.ideasBetter {
+				width: 55%;
+			}
+			.forWhat {
+				transform: translateX(50%);
+				width: 50%;
+				.blockWhat {
+					margin: 3%;
+				}
+			}
+		}
+		.expereinceTop {
+			.blocked {
+				transform: translateY(20%);
+			}
+		}
+		.membersTeam {
+			overflow: hidden;
+			transform: translateY(30%);
+			.peoplesFace {
+				transform: translateX(18%);
+				.peopleBlock {
+					margin: 1%;
+				}
+			}
+		}
+		.ourWork {
+			transform: translate(-8%, 10%);
+		}
+		.feedBack {
+			.peopleFeedback {
+				.people {
+					margin: 5%;
+					width: 50%;
+					.peopleText {
+						h3 {
+							transform: translateX(-32%);
+						}
+						.manDir {
+							transform: translateX(-25%);
+						}
+					}
+				}
+			}
+		}
+		.blogLatest {
+			.blogBody {
+				.blogBlock {
+					flex-direction: column;
+				}
+			}
+		}
+		.freeContact {
+			margin: 0;
+			.contactBody {
+				margin: 0;
+				.blockContacts {
+					transform: translateX(-2%);
+					margin: 0;
+					.messageBlock {
+						.mailDrop {
+							margin: 1%;
+						}
+						.callUs {
+							margin: 1%;
+						}
+					}
+				}
+			}
+			.sendMessage {
+				transform: translateX(17%);
+				flex-direction: column;
+				.inputForm {
+					transform: translateX(17%);
+				}
+			}
+		}
+	}
+}
+@media (max-width: 740px) {
+	.container {
+		.digitalAgency {
+			.navigationBar {
+				.navigation {
+					display: none;
+				}
+			}
+			.digitalText {
+				.bestDigitalIcon {
+					img {
+						width: 340px;
+					}
+				}
+				.digitalSocialIcon {
+					display: none;
+				}
+			}
+		}
+		.ideaEveryone {
+			.ideasBetter {
+				.betterImg {
+					img {
+						width: 350px;
+					}
+				}
+			}
+		}
+		.expereinceTop {
+			.expBody {
+				.blocked {
+					transform: translateY(-13%);
+					flex-direction: column;
+				}
+			}
+		}
+		.membersTeam {
+			.peoplesFace {
+				transform: translateX(53%);
+				.peopleBlock {
+					margin: 8%;
+				}
+			}
+		}
+		.freeContact {
+			transform: translateX(-0.5%);
+			.contactBody {
+				.blockContacts {
+					.messageBlock {
+						flex-direction: column;
+						transform: translateX(27%);
+					}
+				}
+			}
+		}
+		.medals {
+			img {
+				width: 25%;
+			}
+		}
+	}
+}
+@media (max-width: 550px) {
+	.container {
+		.digitalText {
+			.bestDigitalIcon {
+				transform: translateX(-30%);
+				width: 70%;
+			}
+		}
+		.ideaEveryone {
+			.ideasBetter {
+				.betterImg {
+					width: 80%;
+					transform: translateX(-50%);
+				}
+			}
+		}
+		.forWhat {
+			flex-direction: column;
+			.blockWhat {
+				margin: 50px;
+			}
+		}
+		.membersTeam {
+			.peoplesFace {
+				flex-direction: row;
+				transform: translateX(150%);
+				.peopleBlock {
+					margin: 25%;
+				}
+			}
+		}
+		.ourWork {
+			transform: translateX(-20%);
+		}
+		.feedBack {
+			.peopleFeedback {
+				.people {
+					.peopleText {
+						transform: translateY(-5%);
+						h3 {
+							transform: translateX(-13%);
+						}
+						h4 {
+							margin: 0;
+							font-size: 10px;
+						}
+					}
+				}
+			}
+		}
+		.blogLatest {
+			.blogBody {
+				.blogBlock {
+					transform: translateX(-20%);
+					width: 490px;
+				}
+			}
+		}
+		.freeContact {
+			.contactBody {
+				.blockContacts {
+					transform: translateX(-12%);
+				}
+			}
+			.sendMessage {
+				transform: translateX(-10%);
+				.inputForm {
+					transform: translateX(30%);
+					.inputSendMessage {
+						.inputSend {
+							width: 424px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 450px) {
+	.container {
+		margin: 0;
+		.blogPage {
+			flex-direction: column;
+			align-items: center;
+			.newsPage {
+				width: 100%;
+			}
+		}
+	}
+	.footer {
+		overflow: hidden;
+		.footerBody {
+			flex-direction: column;
+			width: 99%;
+			text-align: left;
+			.digiency {
+				width: 90%;
+				height: 200px;
+				margin: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				h2 {
+					transform: translateX(-10%);
+					margin: 0 0 5px 0;
+				}
+				.socButton {
+					width: 80px;
+					height: 80px;
+				}
+			}
+			.footerCompany {
+				transform: translateY(-10%);
+				text-align: left;
+				a {
+					transform: translateX(-5%);
+					margin: 5px 0 5px 0;
+				}
+			}
+			.footerServices {
+				text-align: left;
+			}
+			.footerNews {
+				width: 90%;
+				height: 200px;
+				margin: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				h3 {
+					transform: translateX(-10%);
+					margin: 0;
+				}
+				.inputFooter {
+					margin: 0;
+				}
+			}
+		}
+	}
+	.copyright {
+		overflow: hidden;
+		width: 60%;
+		transform: translateX(-16%);
+		.copyTop {
+			transform: translateX(250%);
+		}
+	}
+}
+@media (max-width: 449px) {
+	.container {
+		.digitalText {
+			flex-direction: column-reverse;
+			.bestDigital {
+				transform: translateX(-28%);
+			}
+			.bestDigitalIcon {
+				transform: translate(30%, 30%);
+			}
+		}
+		.ideaEveryone {
+			.ideasBetter {
+				flex-direction: column;
+				.betterImg {
+					transform: translate(-40%, -100%);
+				}
+				.ideasText {
+					transform: translateX(-10%);
+				}
+			}
+		}
+		.forWhat {
+			.blockWhat {
+				transform: translateX(-10%);
+			}
+		}
+		.expereinceTop {
+			.expBody {
+				flex-direction: column;
+				.blocked {
+					transform: translateY(10%);
+				}
+			}
+		}
+		.membersTeam {
+			.peoplesFace {
+				.peopleBlock {
+					transform: translateX(32%);
+				}
+			}
+		}
+		.ourWork {
+			.workBody {
+				.projectsImg {
+					flex-direction: column;
+					transform: translateY(-0.5%);
+				}
+			}
+		}
+		.blogLatest {
+			.blogBody {
+				.blogBlock {
+					.blogMenu {
+						width: 80%;
+						transform: translateX(-5%);
+						.blogText {
+							.blogImg2 {
+								img {
+									width: 50px;
+									height: 50px;
+								}
+							}
+							.blogImg {
+								img {
+									width: 50%;
+									height: 50%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.freeContact {
+			.contactBody {
+				.blockContacts {
+					transform: translateX(-20%);
+				}
+			}
+			.sendMessage {
+				.sendImg {
+					transform: translateX(30%);
+					img {
+						width: 350px;
+					}
+				}
+				.inputForm {
+					.inputSize {
+						width: 150px;
+					}
+					.inputSendMessage {
+						.inputSend {
+							width: 320px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 410px) {
+	.copyright {
+		overflow: hidden;
+		width: 41%;
+		transform: translateX(-16%);
+	}
+}
+@media (max-width: 401px) {
+	.copyright {
+		margin-top: 10%;
+		overflow: hidden;
+		width: 55%;
+		transform: translateX(-25%);
+		.copy {
+			transform: translateX(20%);
+			word-wrap: break-word;
+			img {
+				display: none;
+			}
+		}
+		.copyTop {
+			display: none;
+		}
+	}
+}
+@media (max-width: 396px) {
+	.copyright {
+		overflow: hidden;
+		width: 40%;
+		transform: translateX(-16%);
+	}
+}
+@media (max-width: 395px) {
+	.container {
+		.digitalText {
+			.bestDigital {
+				width: 80%;
+			}
+			.bestDigitalIcon {
+				transform: translate(15%, 30%);
+			}
+		}
+		.ideaEveryone {
+			.ideasBetter {
+				.betterImg {
+					transform: translate(-70%, -120%);
+				}
+				.ideasText {
+					transform: translateX(-10%);
+				}
+			}
+		}
+		.forWhat {
+			.blockWhat {
+				transform: translateX(-20%);
+			}
+		}
+		.ourWork {
+			transform: translateX(-30%);
+		}
+		.blogLatest {
+			.blogBody {
+				.blogBlock {
+					.blogMenu {
+						width: 80%;
+						transform: translateX(-5%);
+						.blogText {
+							.blogImg2 {
+								img {
+									width: 50px;
+									height: 50px;
+								}
+							}
+							.blogImg {
+								img {
+									width: 70%;
+									height: 60%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.feedBack {
+			.peopleFeedback {
+				display: flex;
+				flex-direction: column;
+				.people {
+					transform: translateX(8%);
+					width: 80%;
+				}
+			}
+		}
+		.blogLatest {
+			transform: translateY(20%);
+			.blogBody {
+				.blogBlock {
+					.blogMenu {
+						width: 70%;
+						.blogText {
+							h3 {
+								width: 70%;
+								font-size: 14px;
+							}
+						}
+					}
+				}
+				.blogMenu2 {
+					.blogImg2 {
+						img {
+							transform: translateX(-10%);
+							width: 70%;
+							height: 60%;
+						}
+					}
+				}
+			}
+		}
+		.freeContact {
+			transform: translateY(5%);
+		}
+	}
+}
+@media (max-width: 325px) {
+	.container {
+		.digitalAgency {
+			.digitalText {
+				.bestDigitalIcon {
+					transform: translateX(0%);
+				}
+			}
+		}
+		.ideaEveryone {
+			.ideasBetter {
+				.betterImg {
+					img {
+						transform: translateX(-12%);
+					}
+				}
+				.ideasText {
+					width: 300px;
+					transform: translateX(-39%);
+				}
+			}
+		}
+		.membersTeam {
+			.peoplesFace {
+				.gustavoBlock {
+					transform: translateX(60%);
+				}
+			}
+		}
+		.ourWork {
+			.workBody {
+				.headerWork {
+					transform: translateX(-10%);
+				}
+				.projectsImg {
+					transform: translateX(-10%);
+				}
+			}
+		}
+		.feedBack {
+			.peopleFeedback {
+				.people {
+					.peopleText {
+						h3 {
+							transform: translateX(-21%);
+						}
+						.manDir {
+							transform: translateX(-10%);
+						}
+					}
+				}
+			}
+		}
+		.blogLatest {
+			.blogBody {
+				.headerBlog {
+					transform: translateX(-35%);
+					width: 200px;
+				}
+			}
+			.blogBlock {
+				.blogMenu {
+					.blogImg {
+						transform: translateX(-25%);
+					}
+					.blogText {
+						.textBlogMenu {
+							.divTextAuthor {
+								h4 {
+									transform: translateX(10%);
+								}
+								h5 {
+									transform: translateX(18%);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.freeContact {
+			.contactBody {
+				.blockContacts {
+					.messageBlock {
+						.visitUs {
+							.visitToUs {
+								transform: translateX(-1%);
+							}
+						}
+					}
+				}
+			}
+			.sendMessage {
+				.sendImg {
+					transform: translateX(-1%);
+				}
+				.inputForm {
+					.inputSize {
+						width: 120px;
+					}
+					.inputSend {
+						width: 180px;
+					}
+				}
+			}
+		}
+	}
+}
